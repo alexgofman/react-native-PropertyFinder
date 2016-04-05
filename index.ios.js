@@ -22,12 +22,6 @@ var styles = StyleSheet.create({
   }
 });
 
-class HelloWorld extends Component {
-  render() {
-    return <React.Text style={styles.text}>Hello World (Again)</React.Text>;
-  }
-}
-
 class PropertyFinderApp extends Component {
   render() {
     return (
